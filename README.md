@@ -96,7 +96,6 @@ json
   "date": "2025-06-06"
 }
 🔸 Expense Analytics
-swift
 GET /api/expenses/analytics/
 Returns:
 
@@ -113,118 +112,18 @@ json
 }
 📘 Category Options
 FOOD
-
 TRAVEL
-
 BILLS
-
 SHOPPING
-
 OTHER
 
 🧠 Technologies Used
 Python
-
 Django
-
 Django REST Framework
-
 JWT Authentication (djangorestframework-simplejwt)
-
-SQLite (default)
-
-📌 Future Improvements
-✅ Add user registration endpoint
-
-✅ Add update/delete functionality for expenses
-
-✅ Pagination support
-
-✅ Export analytics as CSV or PDF
-
-🧑‍💻 Author
-Papineni Mahendra
-📧 papinenimahendra591@gmail.com
-📍 Ameerpet, Hyderabad
-🎓 Rayalaseema University (B.Sc in Computers)
-
-📝 License
-This project is licensed under the MIT License - feel free to use and modify.
-
-
----
-
-Let me know if you want this exported as a file (`README.md`) or if you want help creating a matching frontend using React!
+MYSQL
 
 
 
 
-
-
-You said:
-I want to upload this project into my github account plss give me the the complete commands
-
-
-ChatGPT said:
-Sure Mahendra! Here's a complete step-by-step guide with Git commands to upload your Django REST Expense Tracker project to GitHub:
-
-✅ Step 1: Initialize a Git Repository
-If your project folder is not yet a Git repository, open the terminal in your project folder and run:
-
-
-git init
-✅ Step 2: Create a .gitignore File
-Create a file named .gitignore and add the following:
-
-gitignore
-
-env/
-*.pyc
-__pycache__/
-db.sqlite3
-*.log
-*.env
-.vscode/
-*.sqlite3
-You can create this manually or run:
-
-echo "env/\n*.pyc\n__pycache__/\ndb.sqlite3\n*.log\n*.env\n.vscode/" > .gitignore
-✅ Step 3: Add All Files and Commit
-
-git add .
-git commit -m "Initial commit: Django REST Expense Tracker project"
-✅ Step 4: Create a GitHub Repository
-Go to https://github.com → Click on New Repository
-
-Repository name: expense-tracker-api
-
-Description: (optional)
-
-Keep it public or private (your choice)
-
-Don’t initialize with README (you already have one)
-
-Then click Create repository.
-
-✅ Step 5: Add GitHub Remote & Push
-Copy the URL of the GitHub repo you just created.
-It will look like:
-
-arduino
-https://github.com/your-username/expense-tracker-api.git
-Now run the following commands:
-
-git remote add origin https://github.com/your-username/expense-tracker-api.git
-git branch -M main
-git push -u origin main
-✅ Step 6: Done 🎉
-Now your project is live on GitHub at:
-
-https://github.com/your-username/expense-tracker-api
-💡 Optional: Track Environment with requirements.txt
-Before pushing, generate a requirements.txt so others can install dependencies:
-
-pip freeze > requirements.txt
-git add requirements.txt
-git commit -m "Add requirements.txt"
-git push
